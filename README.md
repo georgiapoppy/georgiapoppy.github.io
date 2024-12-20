@@ -8,4 +8,4 @@ Hi! I’m a third year Computer Science (Advanced) student at the University of 
 - HTML / CSS / JavaScript
 
 ## Contact
-- [LinkedIn](https://www.linkedin.com/georgiapoppymason)
+- [LinkedIn](https://www.linkedin.com/in/georgiapoppymason)
