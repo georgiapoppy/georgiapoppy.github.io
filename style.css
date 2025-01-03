@@ -1,0 +1,100 @@
+:root {
+    --bg-light: #f6ffed;
+    --text-light: #2f3e46;
+    --accent: #a0e7e5;
+    --secondary: #ffafcc;
+    --bg-dark: #2f3e46;
+    --text-dark: #f6ffed;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: var(--bg-light);
+    color: var(--text-light);
+    transition: all 0.3s ease-in-out;
+}
+
+header {
+    background-color: var(--accent);
+    color: var(--text-light);
+    padding: 1rem;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+nav {
+    margin-top: 1rem;
+}
+
+nav a {
+    color: var(--text-light);
+    text-decoration: none;
+    margin: 0 1rem;
+    font-weight: bold;
+    font-size: 1.1rem;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: var(--secondary);
+}
+
+main {
+    max-width: 1200px;
+    margin: auto;
+    padding: 2rem;
+}
+
+section {
+    margin-bottom: 4rem;
+}
+
+section h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: var(--accent);
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: var(--accent);
+    color: var(--text-light);
+}
+
+.toggle-dark-mode {
+    background-color: var(--secondary);
+    border: none;
+    color: var(--text-light);
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.dark-mode {
+    background-color: var(--bg-dark);
+    color: var(--text-dark);
+}
+
+.dark-mode header {
+    background-color: var(--bg-dark);
+    color: var(--text-dark);
+}
+
+.dark-mode nav a {
+    color: var(--text-dark);
+}
+
+.dark-mode footer {
+    background-color: var(--bg-dark);
+}
