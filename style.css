@@ -120,23 +120,24 @@ img {
     margin: auto;
 }
 
-.grid {
-    display: flex; 
-  justify-content: flex-end;
-  }
-
 .center {
     text-align: center;
+    float: left; 
+    width: 33%;
 }
 
 .right {
     text-align: right;
     color: var(--text-light);
     font-size: 2rem;
+    float: left; 
+    width: 33%;
 }
 
 .left {
     text-align: left;
+    float: left; 
+    width: 34%;
     text-decoration: none;
     color: var(--text-light);
     font-size: 2rem;
