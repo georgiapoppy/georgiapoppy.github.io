@@ -155,9 +155,3 @@ i {
     display: flex;
     justify-content: space-between;
 }
-
-.text {
-    font-family: 'Roboto';
-    margin: 0 1rem;
-    font-size: 1.1rem;
-}
