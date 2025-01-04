@@ -76,7 +76,6 @@ main {
 footer {
     text-align: center;
     padding: 1rem;
-    padding-top: 3rem;
     background-color: var(--accent);
     color: var(--text-light);
 }
@@ -157,4 +156,10 @@ i {
 #about {
     display: flex;
     justify-content: space-between;
-  }
+}
+
+.text {
+    font-family: 'Roboto';
+    margin: 0 1rem;
+    font-size: 1.1rem;
+}
