@@ -1,5 +1,3 @@
-document.getElementById("me2").style.display = "none";
-
 function toggleDarkMode() {
     document.body.classList.toggle('dark-mode');
     hideDiv("me1", "me2");
