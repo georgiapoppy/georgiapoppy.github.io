@@ -23,13 +23,14 @@ body {
 header {
     font-family: 'Audrey';
     background-color: var(--bg-light);
-    color: var(--secondary-dark);
+    color: var(--bg-dark);
     padding: 1rem;
     padding-bottom: 0rem;
     text-align: center;
     position: sticky;
     top: 0;
     z-index: 1000;
+    margin-bottom: 3rem;
 }
 
 header h1 {
@@ -83,6 +84,7 @@ main {
 footer {
     text-align: center;
     padding: 1rem;
+    padding-top: 3rem;
     background-color: var(--accent);
     color: var(--text-light);
 }
@@ -162,3 +164,8 @@ i {
     font-size: 2rem;
     padding: 0;
 }
+
+#about {
+    display: flex;
+    justify-content: space-between;
+  }
