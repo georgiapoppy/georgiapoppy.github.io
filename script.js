@@ -1,4 +1,4 @@
-document.getElementById("me2").style.display === "none";
+document.getElementById("me2").style.display = "none";
 
 function toggleDarkMode() {
     document.body.classList.toggle('dark-mode');

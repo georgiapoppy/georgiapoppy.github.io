@@ -116,9 +116,11 @@ aside {
 }
 
 img {
-    max-width: 100%;
+    max-width: 50%;
     max-height: 100vh;
     margin: auto;
+    text-align: left;
+    float: left; 
 }
 
 .center {
