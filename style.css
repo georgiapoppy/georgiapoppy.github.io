@@ -64,15 +64,7 @@ main {
     max-width: 1200px;
     margin: auto;
     padding: 2rem;
-}
-
-section {
     margin-bottom: 4rem;
-}
-
-section h2 {
-    font-size: 2rem;
-    margin-bottom: 1rem;
 }
 
 main {
@@ -120,9 +112,6 @@ button {
 img {
     max-width: 30%;
     max-height: 30%;
-    margin: auto;
-    text-align: left;
-    float: left; 
 }
 
 .center {
