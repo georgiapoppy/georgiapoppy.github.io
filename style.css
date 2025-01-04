@@ -6,6 +6,8 @@
     --secondary-dark: #fa7eac;
     --bg-dark: #244126;
     --text-dark: #ffeded;
+    --light-background: "images/sky.png"
+    --dark-background: "images/stars.png"
 }
 
 body {
@@ -13,6 +15,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: var(--bg-light);
+    background-image: --light-background;
     color: var(--secondary-dark);
     transition: all 0.3s ease-in-out;
 }
@@ -89,6 +92,7 @@ button {
 
 .dark-mode {
     background-color: var(--text-light);
+    background-image: --dark-background;
     color: var(--text-dark);
 }
 
