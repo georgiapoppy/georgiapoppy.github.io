@@ -119,3 +119,29 @@ img {
     max-height: 100vh;
     margin: auto;
 }
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+.center {
+    text-align: center;
+}
+
+.right {
+    text-align: right;
+    color: var(--text-light);
+    font-size: 2rem;
+}
+
+.left {
+    text-align: left;
+    text-decoration: none;
+    color: var(--text-light);
+    font-size: 2rem;
+}
+
+.left a:hover {
+    color: var(--text-dark);
+}
