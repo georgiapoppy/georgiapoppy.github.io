@@ -38,6 +38,7 @@ header h1 {
 
 nav {
     margin-top: 1rem;
+    background-color: var(--secondary-dark);
 }
 
 a {
