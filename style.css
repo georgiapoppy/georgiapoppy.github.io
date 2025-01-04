@@ -152,7 +152,7 @@ i {
     padding: 0;
 }
 
-#about {
+.class, .about, .education, .contact, .projects {
     display: flex;
     justify-content: space-between;
 }
