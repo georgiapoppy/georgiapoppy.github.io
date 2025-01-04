@@ -14,7 +14,7 @@ body {
     font-family: 'Roboto';
     margin: 0;
     padding: 0;
-    background-color: var(--bg-light);
+    /* background-color: var(--bg-light); */
     background-image: --light-background;
     color: var(--secondary-dark);
     transition: all 0.3s ease-in-out;
@@ -91,7 +91,7 @@ button {
 }
 
 .dark-mode {
-    background-color: var(--text-light);
+    /* background-color: var(--text-light); */
     background-image: --dark-background;
     color: var(--text-dark);
 }
