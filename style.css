@@ -149,3 +149,7 @@ img {
 .left a:hover {
     color: var(--text-dark);
 }
+
+i {
+    font-size: 2rem;
+}
