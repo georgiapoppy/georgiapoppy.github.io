@@ -37,7 +37,8 @@ header h1 {
 }
 
 nav {
-    margin-top: 1rem;
+    margin: 10rem;
+    padding: 10rem;
     background-color: var(--secondary-dark);
 }
 
@@ -110,14 +111,9 @@ button {
     background-color: var(--bg-dark);
 }
 
-aside {
-    display: grid;
-    height: 100%;
-}
-
 img {
     max-width: 30%;
-    max-height: 100vh;
+    max-height: 30%;
     margin: auto;
     text-align: left;
     float: left; 
