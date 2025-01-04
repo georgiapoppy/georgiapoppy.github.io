@@ -22,7 +22,7 @@ body {
 
 header {
     font-family: 'Audrey';
-    background-color: var(--secondary-dark);
+    background-color: var(--bg-light);
     color: var(--text-light);
     padding: 1rem;
     padding-bottom: 0rem;
@@ -41,7 +41,7 @@ header h1 {
 }
 
 nav {
-    padding: 3rem;
+    padding: 0.5rem;
     background-color: var(--accent);
 }
 
