@@ -23,7 +23,7 @@ body {
 header {
     font-family: 'Audrey';
     background-color: var(--bg-light);
-    color: var(--text-light);
+    color: var(--secondary-dark);
     padding: 1rem;
     padding-bottom: 0rem;
     text-align: center;
@@ -43,6 +43,7 @@ header h1 {
 nav {
     padding: 0.5rem;
     background-color: var(--accent);
+    text-align: center;
 }
 
 a {
@@ -76,6 +77,7 @@ section h2 {
 
 main {
     color: var(--secondary-dark);
+    padding-bottom: 3rem;
 }
 
 footer {
@@ -130,8 +132,6 @@ img {
 
 .right {
     text-align: right;
-    color: var(--text-light);
-    font-size: 2rem;
     float: left; 
     width: 33%;
 }
@@ -140,9 +140,6 @@ img {
     text-align: left;
     float: left; 
     width: 34%;
-    text-decoration: none;
-    color: var(--text-light);
-    font-size: 2rem;
 }
 
 .left a:hover {
@@ -151,8 +148,17 @@ img {
 
 i {
     font-size: 2rem;
+    color: var(--text-light);
+    font-size: 2rem;
+    padding: 0;
 }
 
 #me2 {
    display: none
+}
+
+#link {
+    color: var(--text-light);
+    font-size: 2rem;
+    padding: 0;
 }
