@@ -25,6 +25,7 @@ header {
     background-color: var(--accent);
     color: var(--text-light);
     padding: 1rem;
+    padding-bottom: 0rem;
     text-align: center;
     position: sticky;
     top: 0;
