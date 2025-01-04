@@ -25,6 +25,8 @@ header {
     background-color: var(--bg-light);
     color: var(--text-light);
     padding: 2rem;
+    padding-top: 0rem;
+    margin-top: 0rem;
     text-align: center;
     top: 0;
     z-index: 1000;
@@ -32,7 +34,6 @@ header {
 }
 
 header h1 {
-    margin-top: 2rem;
     margin: 0;
     padding: 0;
     font-size: 2.5rem;
