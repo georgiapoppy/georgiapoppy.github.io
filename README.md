@@ -4,4 +4,4 @@ My Portfolio Website! Avaliable at https://georgiapoppy.github.io/ :)
 
 (still a work in progress)
 
-![alt text](images/me5.jpg)
+<img src="images/me5.jpg" alt="Alt Text" width="300">
