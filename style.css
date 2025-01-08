@@ -3,7 +3,7 @@
     --text-light: #a7c2ad;
     --accent: #4d624e;
     --secondary: #dbd2bd;
-    --secondary-dark: #625949;
+    --secondary-dark: #433d32;
     --bg-dark: #2a312a;
     --text-dark: #85a383;
 }
@@ -131,7 +131,7 @@ header a {
 }
 
 #link {
-    padding-top: 10px;
+    padding-top: 15px;
     transition: color 0.3s ease;
 }
 
