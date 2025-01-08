@@ -132,25 +132,22 @@ i {
 }
 
 #star {
-    display:inline-block;
-    width: 33%;
-    align: left;
+    float: left;
+    margin-left: 10px;
 }
 
 #heading {
-    display:inline-block;
-    align: center;
-    width: 33%;
+    float: center;
+    margin-left: 50%;
 }
 
 #link {
     color: var(--text-light);
     font-size: 2rem;
     padding: 0;
-    display:inline-block;
     clear: none;
-    width: 33%;
-    align: right;
+    float: right;
+    margin-right: 10px;
 }
 
 .class, .about, .education, .contact, .projects {
