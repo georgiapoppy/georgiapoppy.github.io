@@ -154,23 +154,19 @@ header a {
     font-size: 1em;
 }
 
-.languages {
-    text-align: left;
-    padding-left: 3px;
-    padding-right: 3px;
-}
-
 .language {
-    border-radius: 10px;
+    border-radius: 3px;
     background: var(--bg-light);
     color: var(--accent);
     font-size: 1em;
+    padding: 3px;
+    white-space: nowrap ;
 }
 
 .border {
     border-radius: 15px;
     background: var(--accent);
-    padding: 15px;
+    padding: 10px;
 }
 
 .fade-in-image {
