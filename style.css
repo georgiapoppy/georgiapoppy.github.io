@@ -58,13 +58,7 @@ a:hover {
 }
 
 main {
-    max-width: 1200px;
-    margin: auto;
-    padding: 2rem;
     margin-bottom: 4rem;
-}
-
-main {
     color: var(--secondary-dark);
     padding-bottom: 3rem;
 }
@@ -77,9 +71,9 @@ footer {
 }
 
 button {
-    background-color: var(--secondary);
+    background-color: var(--secondary-dark);
     border: none;
-    color: var(--secondary-dark);
+    color: var(--secondary);
     padding: 0.5rem 1rem;
     border-radius: 5px;
     cursor: pointer;
@@ -139,10 +133,14 @@ i {
 
 #star {
     display:inline-block;
+    width: 33%;
+    align: left;
 }
 
 #heading {
     display:inline-block;
+    align: center;
+    width: 33%;
 }
 
 #link {
@@ -151,6 +149,8 @@ i {
     padding: 0;
     display:inline-block;
     clear: none;
+    width: 33%;
+    align: right;
 }
 
 .class, .about, .education, .contact, .projects {
