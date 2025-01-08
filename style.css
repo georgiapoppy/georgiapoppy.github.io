@@ -23,7 +23,7 @@ nav {
     text-align: center;
 }
 
-nav a {
+nav a, main a {
     font-family: 'Roboto';
     color: var(--text-light);
     text-decoration: none;
@@ -33,12 +33,11 @@ nav a {
     transition: color 0.3s ease;
 }
 
-nav a:hover {
+nav a:hover, main a:hover {
     color: var(--text-dark);
 }
 
 main {
-    margin-bottom: 4rem;
     color: var(--secondary-dark);
     padding-bottom: 3rem;
 }
@@ -108,8 +107,13 @@ header h1{
     padding: 10px;
 }
 
+#star {
+    width: 100px;
+    font-size: 1.5rem;
+}
+
 header a {
-    font-size: 2rem;
+    font-size: 1.5rem;
     padding: 0;
     margin: 0;
     font-family: 'Roboto';
@@ -133,5 +137,13 @@ main p {
     font-family: 'Roboto';
     color: var(--text-light);
     margin: 5px;
+    padding: 5px;
     font-size: 1rem;
+}
+
+main h2 {
+    font-family: 'Roboto';
+    color: var(--text-light);
+    margin: 5px;
+    padding: 5px;
 }
