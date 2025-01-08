@@ -129,7 +129,7 @@ header a {
 }
 
 #link {
-    padding-top: 25px;
+    padding-top: 10px;
     transition: color 0.3s ease;
 }
 
@@ -152,17 +152,20 @@ header a {
 
 .languages {
     text-align: left;
-    font-size: 1em;
     padding-left: 3px;
     padding-right: 3px;
-    border-radius: 25px;
-    background: var(--secondary);
 }
 
 .language {
-    border-radius: 25px;
+    border-radius: 10px;
+    background: var(--bg-light);
+    color: var(--accent);
+    font-size: 1em;
+}
+
+.border {
+    border-radius: 15px;
     background: var(--accent);
-    color: var(--text-light)
 }
 
 .fade-in-image {
