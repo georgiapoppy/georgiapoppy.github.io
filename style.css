@@ -104,6 +104,10 @@ header h1 {
     margin: 0;
 }
 
+.heading2 {
+    color: var(--bg-dark);
+}
+
 #star, #heading, #link {
     padding: 10px;
 }
@@ -151,6 +155,8 @@ header a {
     font-size: 1em;
     padding-left: 3px;
     padding-right: 3px;
+    border-radius: 25px;
+    background: var(--secondary);
 }
 
 .language {
