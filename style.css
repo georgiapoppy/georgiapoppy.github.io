@@ -154,7 +154,7 @@ i {
     justify-content: space-between;
 }
 
-image {
+.image {
     width: 100%;
     height: auto;
     z-index: 0;
