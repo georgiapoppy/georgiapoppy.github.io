@@ -148,6 +148,9 @@ header a {
 
 .languages {
     text-align: left;
+    font-size: 1em;
+    padding-left: 3px;
+    padding-right: 3px;
 }
 
 .language {
