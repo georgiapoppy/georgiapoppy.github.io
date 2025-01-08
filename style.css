@@ -137,14 +137,13 @@ i {
 }
 
 #heading {
-    float: center;
     margin-left: 50%;
+    margin-right: 50%;
 }
 
 #link {
     color: var(--text-light);
     font-size: 2rem;
-    padding: 0;
     clear: none;
     float: right;
     margin-right: 10px;
@@ -156,8 +155,7 @@ i {
 }
 
 image {
-    margin: 0;
-    padding: 0;
     width: 100%;
     height: auto;
+    z-index: 0;
 }
