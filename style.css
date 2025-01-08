@@ -16,6 +16,9 @@ body {
     color: var(--secondary-dark);
     transition: all 0.3s ease-in-out;
     text-justify: inter-word;
+    opacity: 0; 
+    animation: fadeIn 2s ease-in;
+    animation-fill-mode: forwards;
 }
 
 nav {
@@ -41,10 +44,8 @@ nav a:hover, main a:hover {
 main {
     color: var(--secondary-dark);
     padding-bottom: 3rem;
-    opacity: 0; 
-    animation: fadeIn 2s ease-in;
     text-justify: inter-word;
-    animation-fill-mode: forwards;
+    text-align: center;
 }
 
 footer {
@@ -52,9 +53,6 @@ footer {
     padding: 1rem;
     background-color: var(--accent);
     color: var(--text-light);
-    opacity: 0; 
-    animation: fadeIn 2s ease-in;
-    animation-fill-mode: forwards;
 }
 
 button {
@@ -99,9 +97,6 @@ header {
     height: 60px;
     display: flex;
     justify-content: space-between;
-    opacity: 0; 
-    animation: fadeIn 2s ease-in;
-    animation-fill-mode: forwards;
 }
 
 header h1 {
@@ -152,7 +147,13 @@ header a {
 }
 
 #languages {
-    align: left;
+    text-align: left;
+}
+
+#language {
+    border-radius: 25px;
+    background: var(--accent);
+    color: var(--text-light)
 }
 
 .fade-in-image {
