@@ -143,3 +143,7 @@ header a {
 .info a {
     font-size: 1.1rem;
 }
+
+#languages {
+    align: left;
+}
