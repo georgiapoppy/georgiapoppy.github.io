@@ -153,13 +153,9 @@ i {
     justify-content: space-between;
 }
 
-banner {
+banner, image {
     margin: 0;
     padding: 0;
-}
-
-image {
-    margin: 0;
-    padding: 0;
-    width: 100%
+    width: 100%;
+    height: auto;
 }
