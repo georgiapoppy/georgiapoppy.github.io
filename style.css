@@ -15,6 +15,7 @@ body {
     background-color: var(--bg-light);
     color: var(--secondary-dark);
     transition: all 0.3s ease-in-out;
+    text-justify: inter-word;
 }
 
 nav {
@@ -42,6 +43,7 @@ main {
     padding-bottom: 3rem;
     opacity: 0; 
     animation: fadeIn 2s ease-in;
+    text-justify: inter-word;
 }
 
 footer {
