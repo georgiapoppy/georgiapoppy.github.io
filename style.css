@@ -137,10 +137,20 @@ i {
    display: none
 }
 
+#star {
+    display:inline-block;
+}
+
+#heading {
+    display:inline-block;
+}
+
 #link {
     color: var(--text-light);
     font-size: 2rem;
     padding: 0;
+    display:inline-block;
+    clear: none;
 }
 
 .class, .about, .education, .contact, .projects {
