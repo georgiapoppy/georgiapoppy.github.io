@@ -104,11 +104,6 @@ button {
     background-color: var(--bg-dark);
 }
 
-img {
-    max-width: 30%;
-    max-height: 30%;
-}
-
 .center {
     text-align: center;
     float: left; 
