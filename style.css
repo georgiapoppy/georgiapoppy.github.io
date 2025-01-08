@@ -40,6 +40,8 @@ nav a:hover, main a:hover {
 main {
     color: var(--secondary-dark);
     padding-bottom: 3rem;
+    opacity: 0; 
+    animation: fadeIn 2s ease-in;
 }
 
 footer {
@@ -47,6 +49,8 @@ footer {
     padding: 1rem;
     background-color: var(--accent);
     color: var(--text-light);
+    opacity: 0; 
+    animation: fadeIn 2s ease-in;
 }
 
 button {
@@ -91,6 +95,8 @@ header {
     height: 60px;
     display: flex;
     justify-content: space-between;
+    opacity: 0; 
+    animation: fadeIn 2s ease-in;
 }
 
 header h1 {
@@ -118,8 +124,13 @@ header a {
     transition: color 0.3s ease;
 }
 
+#link {
+    padding-top: 25px;
+    transition: color 0.3s ease;
+}
+
 #link a:hover {
-    color: var(--text-light);
+    color: var(--bg-dark);
 }
 
 .image {
@@ -138,3 +149,13 @@ header a {
 #languages {
     align: left;
 }
+
+@keyframes fadeIn {  
+    from {  
+        opacity:0;  
+    }  
+ 
+    to {  
+        opacity:1;  
+    }  
+ }
