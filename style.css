@@ -23,7 +23,7 @@ nav {
     text-align: center;
 }
 
-a {
+nav a {
     font-family: 'Roboto';
     color: var(--text-light);
     text-decoration: none;
@@ -33,7 +33,7 @@ a {
     transition: color 0.3s ease;
 }
 
-a:hover {
+nav a:hover {
     color: var(--text-dark);
 }
 
@@ -78,37 +78,14 @@ button {
     background-color: var(--bg-dark);
 }
 
-.center {
-    text-align: center;
-    float: left; 
-    width: 33%;
-}
-
-.right {
-    text-align: right;
-    float: left; 
-    width: 33%;
-}
-
-.left {
-    text-align: left;
-    float: left; 
-    width: 34%;
-}
-
-.left a:hover {
-    color: var(--text-dark);
-}
-
 i {
     font-size: 2rem;
     color: var(--text-light);
-    font-size: 2rem;
     padding: 0;
 }
 
 header {
-    font-family: 'Font Awesome 6 Free';
+    font-family: 'Garamond';
     background-color: var(--bg-light);
     color: var(--text-light);
     width: 100%;
@@ -132,9 +109,18 @@ header {
 }
 
 #link {
-    font-size: 3rem;
+    font-size: 2rem;
     padding: 0;
     margin: 0;
+    font-family: 'Roboto';
+    color: var(--text-light);
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+#link a:hover {
+    color: var(--text-dark);
 }
 
 .image {
@@ -146,6 +132,6 @@ header {
 main p {
     font-family: 'Roboto';
     color: var(--text-light);
-    margin: 1px;
-    font-size: 1.1rem;
+    margin: 5px;
+    font-size: 1rem;
 }
