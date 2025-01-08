@@ -1,9 +1,9 @@
 :root {
-    --bg-light: #fffbee;
+    --bg-light: #f0ffee;
     --text-light: #a7c2ad;
     --accent: #4d624e;
     --secondary: #dbd2bd;
-    --secondary-dark: #423f3a;
+    --secondary-dark: #625949;
     --bg-dark: #2a312a;
     --text-dark: #85a383;
 }
@@ -135,7 +135,7 @@ header a {
 
 .image {
     width: 100%;
-    height: 300px;
+    height: 30%;
     z-index: 0;
 }
 
@@ -150,12 +150,35 @@ header a {
     align: left;
 }
 
-@keyframes fadeIn {  
-    from {  
-        opacity:0;  
-    }  
- 
-    to {  
-        opacity:1;  
-    }  
- }
+.fade-in-image {
+    animation: fadeIn 1.5s;
+    -webkit-animation: fadeIn 1.5s;
+    -moz-animation: fadeIn 1.5s;
+    -o-animation: fadeIn 1.5s;
+    -ms-animation: fadeIn 1.5s;
+  }
+  
+  @keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-moz-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-o-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-ms-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
