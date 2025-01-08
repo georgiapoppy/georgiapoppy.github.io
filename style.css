@@ -2,8 +2,8 @@
     --bg-light: #fffbee;
     --text-light: #445a49;
     --accent: #94b099;
-    --secondary: #a59a84;
-    --secondary-dark: #5d5547;
+    --secondary: #c7bfae;
+    --secondary-dark: #423f3a;
     --bg-dark: #244126;
     --text-dark: #e7e1cf;
 }
@@ -153,7 +153,13 @@ i {
     justify-content: space-between;
 }
 
-banner, image {
+banner {
     margin: 0;
     padding: 0;
+}
+
+image {
+    margin: 0;
+    padding: 0;
+    width: 100%
 }
