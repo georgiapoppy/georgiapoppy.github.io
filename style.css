@@ -108,7 +108,7 @@ i {
 }
 
 header {
-    font-family: 'Times New Roman';
+    font-family: 'Font Awesome 6 Free';
     background-color: var(--bg-light);
     color: var(--text-light);
     width: 100%;
@@ -129,6 +129,12 @@ header h1 {
 
 #star, #heading, #link {
     padding: 10px;
+}
+
+#link {
+    font-size: 3rem;
+    padding: 0;
+    margin: 0;
 }
 
 .image {
