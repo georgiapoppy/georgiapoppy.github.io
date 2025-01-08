@@ -44,6 +44,7 @@ main {
     opacity: 0; 
     animation: fadeIn 2s ease-in;
     text-justify: inter-word;
+    animation-fill-mode: forwards;
 }
 
 footer {
@@ -53,6 +54,7 @@ footer {
     color: var(--text-light);
     opacity: 0; 
     animation: fadeIn 2s ease-in;
+    animation-fill-mode: forwards;
 }
 
 button {
@@ -99,6 +101,7 @@ header {
     justify-content: space-between;
     opacity: 0; 
     animation: fadeIn 2s ease-in;
+    animation-fill-mode: forwards;
 }
 
 header h1 {
