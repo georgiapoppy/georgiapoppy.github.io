@@ -1,10 +1,10 @@
 :root {
     --bg-light: #fffbee;
-    --text-light: #445a49;
+    --text-light: #b4d0ba;
     --accent: #c9decd;
     --secondary: #c7bfae;
     --secondary-dark: #423f3a;
-    --bg-dark: #244126;
+    --bg-dark: #415442;
     --text-dark: #e7e1cf;
 }
 
@@ -19,7 +19,7 @@ body {
 
 nav {
     padding: 0.5rem;
-    background-color: var(--secondary-dark);
+    background-color: var(--text-light);
     text-align: center;
 }
 
@@ -45,7 +45,7 @@ main {
 footer {
     text-align: center;
     padding: 1rem;
-    background-color: var(--accent);
+    background-color: var(--bg-dark);
     color: var(--text-light);
 }
 
@@ -138,10 +138,6 @@ header a {
     color: var(--text-light);
     margin: 5px;
     padding: 10px;
-}
-
-.info a {
-    font-size: 1.1rem;
 }
 
 #languages {
