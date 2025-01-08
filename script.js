@@ -1,6 +1,7 @@
 function toggleDarkMode() {
     document.body.classList.toggle('dark-mode');
-    hideDiv("me1", "me2");
+    hideDiv("dark1", "dark2");
+    hideDiv("dark3", "dark4");
 }
 
 function hideDiv(a, b) {
