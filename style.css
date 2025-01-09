@@ -94,7 +94,6 @@ button {
 
 i {
     font-size: 2rem;
-    color: var(--text-light);
     padding: 0;
 }
 
@@ -223,7 +222,7 @@ header a {
     -ms-animation: fadeIn 1.5s;
 }
 
-.dark2, .dark4 {
+#dark2, #dark4 {
     display: none;
 }
 
