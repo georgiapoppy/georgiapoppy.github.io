@@ -240,6 +240,7 @@ header a {
     position: relative;
     background-color: inherit;
     width: 50%;
+    text-align: justify;
 }
 
 .container::after {
@@ -253,6 +254,14 @@ header a {
     top: 15px;
     border-radius: 50%;
     z-index: 1;
+}
+
+.content {
+    padding: 20px 30px;
+    background-color: var(--accent);
+    position: relative;
+    border-radius: 6px;
+    color: var(--text-light);
 }
 
 .left {
