@@ -155,6 +155,13 @@ header a {
     color: var(--accent);
 }
 
+.about {
+    font-family: 'Roboto';
+    margin: 5px;
+    padding: 10px;
+    text-align: justify;
+}
+
 .language {
     border-radius: 5px;
     background: var(--bg-light);
@@ -174,6 +181,19 @@ header a {
 
 .border dark-mode {
     background: var(--bg-dark);
+}
+
+.images {
+    text-align: center;
+
+}
+
+.tiny {
+    object-fit: cover;
+    max-width: 30%;
+    height: 30%;
+    padding: 10px;
+    display: inline-block;
 }
 
 .fade-in-image {
