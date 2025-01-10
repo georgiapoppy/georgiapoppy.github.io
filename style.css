@@ -165,6 +165,13 @@ header a {
     color: var(--accent);
 }
 
+.info a {
+    font-size: 1em;
+    color: var(--accent);
+    padding: 0px;
+    margin: 0px;
+}
+
 .about {
     font-family: 'Roboto';
     margin: 5px;
