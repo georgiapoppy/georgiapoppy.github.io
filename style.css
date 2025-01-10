@@ -247,16 +247,9 @@ header a {
     position: relative;
     background-color: inherit;
     text-align: justify;
-    width: 100%;
+    width: 70%;
     padding-left: 70px;
     padding-right: 25px;
-}
-
-.container::before {
-    left: 60px;
-    border: medium solid var(--accent);
-    border-width: 10px 10px 10px 0;
-    border-color: transparent var(--accent) transparent transparent;
 }
 
 .container::after {
@@ -280,11 +273,11 @@ header a {
     color: var(--text-light);
 }
 
-.left::after, .right::after {
-    left: 15px;
+.left {
+    left: 0%;
 }
 .right {
-    left: 0%;
+    left: 50%;
 }
 
 .left::before {
@@ -311,6 +304,10 @@ header a {
     border: medium solid var(--accent);
     border-width: 10px 10px 10px 0;
     border-color: transparent var(--accent) transparent transparent;
+}
+
+.right::after {
+    left: -16px;
 }
 
 .fade-in-image {
