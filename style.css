@@ -165,7 +165,7 @@ header a {
     color: var(--accent);
 }
 
-.info a {
+.links {
     font-size: 1em;
     color: var(--accent);
     padding: 0px;
