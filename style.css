@@ -248,8 +248,8 @@ header a {
     background-color: inherit;
     text-align: justify;
     width: 70%;
-    padding-left: 70px;
-    padding-right: 25px;
+    padding-left: 10%;
+    padding-right: 5%;
 }
 
 .container::after {
