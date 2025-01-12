@@ -251,7 +251,7 @@ header a {
     position: relative;
     background-color: inherit;
     text-align: justify;
-    width: 50%;
+    width: 45%;
 }
 
 .container::after {
@@ -276,7 +276,7 @@ header a {
 }
 
 .left {
-    left: 0%;
+    left: 0;
 }
 .right {
     left: 50%;
@@ -317,7 +317,7 @@ header a {
         left: 31px;
     }
     .container {
-        width: 100%;
+        width: 90%;
         padding-left: 70px;
         padding-right: 25px;
     }
@@ -344,26 +344,26 @@ header a {
 }
 
 @keyframes fadeIn {
-0% { opacity: 0; }
-100% { opacity: 1; }
+    0% { opacity: 0; }
+    100% { opacity: 1; }
 }
 
 @-moz-keyframes fadeIn {
-0% { opacity: 0; }
-100% { opacity: 1; }
+    0% { opacity: 0; }
+    100% { opacity: 1; }
 }
 
 @-webkit-keyframes fadeIn {
-0% { opacity: 0; }
-100% { opacity: 1; }
+    0% { opacity: 0; }
+    100% { opacity: 1; }
 }
 
 @-o-keyframes fadeIn {
-0% { opacity: 0; }
-100% { opacity: 1; }
+    0% { opacity: 0; }
+    100% { opacity: 1; }
 }
 
 @-ms-keyframes fadeIn {
-0% { opacity: 0; }
-100% { opacity: 1; }
+    0% { opacity: 0; }
+    100% { opacity: 1; }
 }
