@@ -239,7 +239,6 @@ header a {
     top: 0;
     bottom: 0;
     margin-left: -3px;
-    left: 31px;
 }
 
 .container {
@@ -248,7 +247,7 @@ header a {
     background-color: inherit;
     text-align: justify;
     width: 70%;
-    padding-left: 10%;
+    padding-left: 5%;
     padding-right: 5%;
 }
 
