@@ -238,6 +238,7 @@ header a {
     background-color: var(--accent);
     top: 0;
     bottom: 0;
+    left: 50%;
     margin-left: -3px;
 }
 
@@ -246,9 +247,7 @@ header a {
     position: relative;
     background-color: inherit;
     text-align: justify;
-    width: 70%;
-    padding-left: 5%;
-    padding-right: 5%;
+    width: 50%;
 }
 
 .container::after {
@@ -308,6 +307,29 @@ header a {
 .right::after {
     left: -16px;
 }
+
+@media screen and (max-width: 600px) {
+    .timeline::after {
+        left: 31px;
+    }
+    .container {
+        width: 100%;
+        padding-left: 70px;
+        padding-right: 25px;
+    }
+    .container::before {
+        left: 60px;
+        border: medium solid var(--accent);
+        border-width: 10px 10px 10px 0;
+        border-color: transparent var(--accent) transparent transparent;
+    }
+    .left::after, .right::after {
+        left: 15px;
+    }
+    .right {
+        left: 0%;
+      }
+    }
 
 .fade-in-image {
     animation: fadeIn 1.5s;
