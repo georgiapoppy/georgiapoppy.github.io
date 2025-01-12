@@ -225,6 +225,10 @@ header a {
     display: none;
 }
 
+* {
+    box-sizing: border-box;
+}
+
 .timeline {
     position: relative;
     max-width: 1200px;
