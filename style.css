@@ -225,6 +225,12 @@ header a {
     display: none;
 }
 
+.bold {
+    font-style: italic;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
 * {
     box-sizing: border-box;
 }
@@ -250,8 +256,9 @@ header a {
     padding: 10px 40px;
     position: relative;
     background-color: inherit;
-    text-align: justify;
+    text-align: left;
     width: 45%;
+    line-height: 1.1;
 }
 
 .container::after {
