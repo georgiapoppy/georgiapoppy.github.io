@@ -116,7 +116,6 @@ header h1 {
     font-weight: bold;
     padding-top: 0;
     margin-top: 0;
-    color: var(--bg-light);
 }
 
 #star, #heading, #link {
@@ -273,7 +272,7 @@ header a {
     position: relative;
     background-color: inherit;
     text-align: left;
-    width: 48%;
+    width: 45%;
     line-height: 1.1;
 }
 
@@ -340,7 +339,7 @@ header a {
         left: 31px;
     }
     .container {
-        width: 95%;
+        width: 90%;
         padding-left: 70px;
         padding-right: 25px;
     }
