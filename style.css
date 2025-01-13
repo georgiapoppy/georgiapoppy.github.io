@@ -190,6 +190,7 @@ header a {
     margin: 5px;
     padding: 10px;
     line-height: 1;
+    margin: 0px;
 }
 
 .language {
@@ -207,6 +208,9 @@ header a {
     background: var(--accent);
     color: var(--text-light);
     padding: 10px;
+}
+
+.borderL {
     line-height: 1.8;
 }
 
@@ -247,10 +251,6 @@ header a {
     padding-bottom: 2px;
 }
 
-* {
-    box-sizing: border-box;
-}
-
 .timeline {
     position: relative;
     max-width: 1200px;
@@ -273,7 +273,7 @@ header a {
     position: relative;
     background-color: inherit;
     text-align: left;
-    width: 45%;
+    width: 48%;
     line-height: 1.1;
 }
 
@@ -340,7 +340,7 @@ header a {
         left: 31px;
     }
     .container {
-        width: 90%;
+        width: 95%;
         padding-left: 70px;
         padding-right: 25px;
     }
