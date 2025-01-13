@@ -215,8 +215,8 @@ header a {
 
 .tiny {
     object-fit: cover;
-    max-width: 300px;
-    height: 300px;
+    max-width: 250px;
+    height: 250px;
     padding: 10px;
     display: inline-block;
     text-align: center;
