@@ -293,6 +293,10 @@ header a {
     margin-left: -3px;
 }
 
+.dark-mode .timeline::after, .dark-mode .container {
+    background-color: var(--bg-dark);
+}
+
 .container {
     padding: 10px 40px;
     position: relative;
