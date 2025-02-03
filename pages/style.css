@@ -83,6 +83,14 @@ button {
     color: var(--text-dark);
 }
 
+.dark-mode #contentL:hover {
+    color: var(--text-light);
+} 
+
+.dark-mode .heading2 {
+    color: var(--text-light);
+}
+
 .dark-mode nav a {
     color: var(--text-light);
 } 
