@@ -76,16 +76,16 @@ button {
 
 .dark-mode {
     background-color: var(--accent);
-    color: var(--bg-dark);
+    color: var(--text-light);
 }
 
-.dark-mode header {
+.dark-mode header, .dark-mode #contentL {
     background-color: var(--bg-dark);
     color: var(--text-dark);
 }
 
 .dark-mode nav a {
-    color: var(--text-dark);
+    color: var(--text-light);
 }
 
 .dark-mode footer {
