@@ -8,6 +8,10 @@
     --text-dark: #85a383;
 }
 
+* {
+    box-sizing: border-box;
+}
+
 body {
     font-family: 'Roboto';
     margin: 0;
@@ -188,6 +192,13 @@ header a {
 .links {
     font-size: 1em;
     color: var(--accent);
+    padding: 0px;
+    margin: 0px;
+}
+
+.links2 {
+    font-size: 1em;
+    color: var(--text-light);
     padding: 0px;
     margin: 0px;
 }
