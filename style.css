@@ -287,7 +287,7 @@ header a {
     position: relative;
     background-color: inherit;
     text-align: left;
-    width: 45%;
+    width: 50%;
     line-height: 1.1;
 }
 
@@ -349,12 +349,12 @@ header a {
     left: -16px;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 500px) {
     .timeline::after {
         left: 31px;
     }
     .container {
-        width: 90%;
+        width: 100%;
         padding-left: 70px;
         padding-right: 25px;
     }
