@@ -42,7 +42,6 @@ nav a:hover, main a:hover {
 }
 
 main {
-    color: var(--secondary-dark);
     padding-bottom: 3rem;
     text-justify: inter-word;
     text-align: center;
@@ -86,6 +85,14 @@ button {
 
 .dark-mode nav a {
     color: var(--text-light);
+} 
+
+.dark-mode nav a:hover {
+    color: var(--secondary);
+} 
+
+.dark-mode .borderL, .dark-mode .border {
+    background-color: var(--bg-dark);
 }
 
 .dark-mode footer {
