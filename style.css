@@ -82,12 +82,12 @@ button {
     color: var(--text-light);
 }
 
-.dark-mode header, .dark-mode #contentL {
+.dark-mode header, .dark-mode .contentL {
     background-color: var(--bg-dark);
     color: var(--text-dark);
 }
 
-.dark-mode #contentL:hover {
+.dark-mode .contentL:hover {
     color: var(--text-light);
 } 
 
