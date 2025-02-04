@@ -129,7 +129,6 @@ header {
 header h1 {
     padding: 0;
     margin: 0;
-    font-size: 80%;
 }
 
 .heading2 {
@@ -366,6 +365,10 @@ header a {
 }
 
 @media screen and (max-width: 500px) {
+    #heading {
+        font-size: 80%;
+        vertical-align: middle;
+    }
     .timeline::after {
         left: 31px;
     }
