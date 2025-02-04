@@ -37,7 +37,7 @@ nav a {
     text-decoration: none;
     margin: 0 1rem;
     font-weight: bold;
-    font-size: 1.1rem;
+    font-size: 0.9rem;
     transition: color 0.3s ease;
 }
 
@@ -259,7 +259,7 @@ header a {
 
 .tiny2 {
     object-fit: cover;
-    max-width: 500px;
+    max-width: 60%;
     height: autp;
     padding: 10px;
     display: inline-block;
