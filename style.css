@@ -367,7 +367,8 @@ header a {
 @media screen and (max-width: 500px) {
     #heading {
         font-size: 80%;
-        padding-top: 5px;
+        vertical-align: middle;
+        padding-top: 10px;
     }
     .timeline::after {
         left: 31px;
