@@ -2,6 +2,6 @@
 
 My Portfolio Website! Avaliable at https://georgiapoppy.github.io/ :)
 
-(still a work in progress)
+Coded using HTML, CSS, and Javascript!
 
-<img src="images/me5.jpg" alt="Alt Text" width="300">
+<img src="pictures/website.png" alt="Picture of Website Home Screen" width="300">
