@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Nike</title>
+        <link rel="stylesheet" href="stylesheets/style.css" >
+        <script src="javascripts/page.js" defer></script>
+        <script src="https://kit.fontawesome.com/86f70aa7c1.js" crossorigin="anonymous"></script>
+    </head>
+    <body onload="displayShoes()">
+        <header>
+            <ul class="header">
+                <li><i class="fa-solid fa-check"></i><h1 class="title">  NIKE</h1></li>
+            </ul>
+            <ul class="header">
+                <li class="header_item">MY PROFILE</li>
+                <li class="header_item">ABOUT US</li>
+                <li class="header_item">STORES</li>
+                <li class="border">   </li>
+            </ul>
+        </header>
+
+        <h2>Search through our selection of shoes:</h2>
+
+        <h4 class="left">NAME:</h4>
+        <input type="text" id="name" name="name">
+        <br>
+
+        <h4 class="left">PRICE:</h4>
+        <label for="greater" class="margin">Greater than:</label>
+        <input type="number" id="greater" name="greater">
+        <label for="less" class="margin">Less than:</label>
+        <input type="number" id="less" name="less">
+        <br>
+
+        <h4 class="left">BRANDS:</h4>
+        <input type="checkbox" id="Nike1" name="Nike1" value="Nike1">
+        <label for="Nike1">Nike1</label>
+        <input type="checkbox" id="Nike2" name="Nike2" value="Nike2">
+        <label for="Nike2">Nike2</label>
+        <input type="checkbox" id="Nike3" name="Nike3" value="Nike3">
+        <label for="Nike3">Nike3</label>
+        <br>
+
+        <h4 class="left">STYLES:</h4>
+        <input type="checkbox" id="Casual" name="Casual" value="Casual">
+        <label for="Casual">Casual</label>
+        <input type="checkbox" id="Athletic" name="Athletic" value="Athletic">
+        <label for="Athletic">Athletic</label>
+        <input type="checkbox" id="Football" name="Football" value="Football">
+        <label for="Football">Football</label>
+        <br>
+
+        <h4 class="left">SIZE:</h4>
+        <select name="size" id="size">
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+        </select>
+        <br>
+
+        <button type="button" class="right" onclick="displayShoesFilter()">SEARCH with FILTERS</button>
+
+        <div id="search">
+
+            <!-- <img src="${shoe.image}" alt="shoe image">
+            <h3>${shoe.name}</h3>
+            <ul>
+                <li><p class="item">Brand: ${shoe.brand}</p></li>
+                <li><p class="item">Style: ${shoe.style}</p></li>
+                <li><p class="item">Size: ${shoe.size}</p></li>
+                <li><p class="item">Price: $${shoe.price}</p></li>
+            </ul>
+            <br> -->
+
+        </div>
+
+        <footer>
+            <h3>Thank you for visiting the Nike website :)</h3>
+        </footer>
+    </body>
+</html>

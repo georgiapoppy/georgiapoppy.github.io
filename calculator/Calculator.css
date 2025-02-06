@@ -1,0 +1,31 @@
+body {
+    font-family: Georgia, serif;
+    text-align: center;
+    background-color: white;
+}
+input {
+    padding: 15px;
+    box-sizing: border-box;
+}
+button {
+    padding: 15px;
+    box-sizing: border-box;
+    background-color: white;
+    color: black;
+}
+h1 {
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+    text-shadow: 2px;
+    font-weight: bold;
+}
+h2 {
+    text-shadow: 2px;
+    font-weight: bold;
+}
+#calculator {
+    background-color: darkslategray;
+    font-weight: bold;
+    color: white;
+    font-size: 110%;
+}

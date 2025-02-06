@@ -1,0 +1,84 @@
+body {
+  font: arial;
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.header {
+  list-style-type: none;
+  margin: 0;
+  padding: 0px;
+  overflow: hidden;
+}
+header {
+    background-color: darkcyan;
+    color: white;
+}
+.header_item {
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border-color: rgb(11, 60, 60);
+    border: 1px 0px 0px 0px;
+    border-style: solid;
+}
+li i {
+  margin: 0;
+  padding: 0px 10px 0px 10px;
+  font-size: 220%;
+  float: left;
+  display: block;
+  text-align: center;
+}
+.border {
+  border-color: rgb(11, 60, 60);
+  border: 2px 0px 3px 0px;
+  border-style: solid;
+}
+footer {
+  padding: 15px;
+  text-align: center;
+  background-color: darkcyan;
+  color: white;
+  position:absolute;
+  width: 100%;
+}
+button {
+  color: rgb(11, 60, 60);;
+  background-color: lightcyan;
+  border-color: rgb(11, 60, 60);;
+  font-weight: bold;
+  font-size: 130%;
+  margin: 10px 10px 10px 10px;
+  padding: 5px 5px;
+}
+h2, h4, h3 {
+  padding: 0px 0px 0px 10px;
+}
+h4 {
+  font-style: italic;
+}
+input, select, .margin {
+  margin: 0px 0px 0px 10px;
+}
+img {
+  width: 20%;
+  height: 20%;
+  margin: 0px 0px 0px 10px;
+}
+h3 {
+  margin: 5px;
+}
+.item {
+  margin: 0px;
+}
+#name, #greater, #less {
+  width: 60px;
+}
+.left {
+  display: inline-block;
+  margin: 0px;
+  padding: 0px 0px 10px 15px;
+}
