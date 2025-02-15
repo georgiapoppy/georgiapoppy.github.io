@@ -9,13 +9,14 @@ var list = [];
 
 function displayShoes() {
     for(let i = 0; i<shoes.length; i++) {
+        shoe = shoes[i]
         let shoeDiv = document.createElement("div");
-        shoeDiv.innerHTML = `<img src="${shoes.image}" alt="shoe image">
-                            <h3>${shoes.name}</h3>
+        shoeDiv.innerHTML = `<img src="${shoe.image}" alt="shoe image">
+                            <h3>${shoe.name}</h3>
                             <ul>
-                                <li><p class="item">Style: ${shoes.style}</p></li>
-                                <li><p class="item">Size: ${shoes.size}</p></li>
-                                <li><p class="item">Price: $${shoes.price}</p></li>
+                                <li><p class="item">Style: ${shoe.style}</p></li>
+                                <li><p class="item">Size: ${shoe.size}</p></li>
+                                <li><p class="item">Price: $${shoe.price}</p></li>
                             </ul>
                             <br>`;
         document.getElementById("search").appendChild(shoeDiv);
@@ -51,13 +52,14 @@ function displayShoesFilter() {
         }
     }
     for(let i = 0; i<list.length; i++) {
+        shoe = list[i]
         let shoeDiv = document.createElement("div");
-        shoeDiv.innerHTML = `<img src="${list.image}" alt="shoe image">
-                            <h3>${list.name}</h3>
+        shoeDiv.innerHTML = `<img src="${shoe.image}" alt="shoe image">
+                            <h3>${shoe.name}</h3>
                             <ul>
-                                <li><p class="item">Style: ${list.style}</p></li>
-                                <li><p class="item">Size: ${list.size}</p></li>
-                                <li><p class="item">Price: $${list.price}</p></li>
+                                <li><p class="item">Style: ${shoe.style}</p></li>
+                                <li><p class="item">Size: ${shoe.size}</p></li>
+                                <li><p class="item">Price: $${shoe.price}</p></li>
                             </ul>
                             <br>`;
         document.getElementById("search").appendChild(shoeDiv);
