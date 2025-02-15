@@ -1,7 +1,7 @@
 var shoes = [
-    {"image": "shoe1.png", "name": "Dunk Lows", "brand": "Nike", "style": "Casual", "size": 7, "price": 100}, 
-    {"image": "shoe2.png", "name": "Running Shoes", "brand": "Nike", "style": "Athletic", "size": 8, "price": 150}, 
-    {"image": "shoe3.png", "name": "Zoom Superfly", "brand": "Nike", "style": "Football", "size": 9, "price": 200}
+    {"image": "shoe1.png", "name": "Dunk Lows", "style": "Casual", "size": 7, "price": 100}, 
+    {"image": "shoe2.png", "name": "Running Shoes", "style": "Athletic", "size": 8, "price": 150}, 
+    {"image": "shoe3.png", "name": "Zoom Superfly", "style": "Football", "size": 9, "price": 200}
 ]
 
 var list = [];
@@ -13,7 +13,6 @@ function displayShoes() {
         shoeDiv.innerHTML = `<img src="${shoes.image}" alt="shoe image">
                             <h3>${shoes.name}</h3>
                             <ul>
-                                <li><p class="item">Brand: ${shoes.brand}</p></li>
                                 <li><p class="item">Style: ${shoes.style}</p></li>
                                 <li><p class="item">Size: ${shoes.size}</p></li>
                                 <li><p class="item">Price: $${shoes.price}</p></li>
@@ -56,7 +55,6 @@ function displayShoesFilter() {
         shoeDiv.innerHTML = `<img src="${list.image}" alt="shoe image">
                             <h3>${list.name}</h3>
                             <ul>
-                                <li><p class="item">Brand: ${list.brand}</p></li>
                                 <li><p class="item">Style: ${list.style}</p></li>
                                 <li><p class="item">Size: ${list.size}</p></li>
                                 <li><p class="item">Price: $${list.price}</p></li>

@@ -21,8 +21,6 @@
         </header>
 
         <h2>Search through our selection of shoes:</h2>
-        <p>NOTE: This website was originally created with SQL and AJAX, but because GitHub Pages are static, I had to convert the queries and database to Javascript instead. View the original website repository <a href="https://github.com/georgiapoppy/shoe-store">HERE</a></p>
-
         <h4 class="left">SHOE NAME:</h4>
         <input type="text" id="name" name="name">
         <br>
@@ -32,15 +30,6 @@
         <input type="number" id="greater" name="greater">
         <label for="less" class="margin">Less than:</label>
         <input type="number" id="less" name="less">
-        <br>
-
-        <h4 class="left">BRANDS:</h4>
-        <input type="checkbox" id="Nike1" name="Nike1" value="Nike1">
-        <label for="Nike1">Nike1</label>
-        <input type="checkbox" id="Nike2" name="Nike2" value="Nike2">
-        <label for="Nike2">Nike2</label>
-        <input type="checkbox" id="Nike3" name="Nike3" value="Nike3">
-        <label for="Nike3">Nike3</label>
         <br>
 
         <h4 class="left">STYLES:</h4>
@@ -67,7 +56,6 @@
             <!-- <img src="${shoe.image}" alt="shoe image">
             <h3>${shoe.name}</h3>
             <ul>
-                <li><p class="item">Brand: ${shoe.brand}</p></li>
                 <li><p class="item">Style: ${shoe.style}</p></li>
                 <li><p class="item">Size: ${shoe.size}</p></li>
                 <li><p class="item">Price: $${shoe.price}</p></li>
@@ -75,6 +63,11 @@
             <br> -->
 
         </div>
+
+        <br>
+        <p>NOTE: This website was originally created with SQL and AJAX, but because GitHub Pages are static, I had to convert the queries and database to Javascript instead. View the original website repository by clicking the button below:</p>
+        <button type="button" class="right" onclick="location.href='https://github.com/georgiapoppy/shoe-store'">GITHUB REPO</button>
+        <br>
 
         <footer>
             <h3>Thank you for visiting the Nike website :)</h3>
