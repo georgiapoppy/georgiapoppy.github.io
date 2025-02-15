@@ -1,10 +1,28 @@
 var shoes = [
-    {"image": "shoe1.png", "name": "Dunk Lows", "brand": "Nike", "style": "Casual", "size": 7, "price": 7}, 
-    {"image": "shoe2.png", "name": "Running Shoes", "brand": "Nike", "style": "Athletic", "size": 8, "price": 7}, 
-    {"image": "shoe3.png", "name": "Zoom Superfly", "brand": "Nike", "style": "Football", "size": 9, "price": 7}
+    {"image": "shoe1.png", "name": "Dunk Lows", "brand": "Nike", "style": "Casual", "size": 7, "price": 100}, 
+    {"image": "shoe2.png", "name": "Running Shoes", "brand": "Nike", "style": "Athletic", "size": 8, "price": 150}, 
+    {"image": "shoe3.png", "name": "Zoom Superfly", "brand": "Nike", "style": "Football", "size": 9, "price": 200}
 ]
 
 var list = [];
+
+
+function displayShoes() {
+    for(let i = 0; i<shoes.length; i++) {
+        let shoeDiv = document.createElement("div");
+        shoeDiv.innerHTML = `<img src="${shoes.image}" alt="shoe image">
+                            <h3>${shoes.name}</h3>
+                            <ul>
+                                <li><p class="item">Brand: ${shoes.brand}</p></li>
+                                <li><p class="item">Style: ${shoes.style}</p></li>
+                                <li><p class="item">Size: ${shoes.size}</p></li>
+                                <li><p class="item">Price: $${shoes.price}</p></li>
+                            </ul>
+                            <br>`;
+        document.getElementById("search").appendChild(shoeDiv);
+    };
+};
+
 
 function displayShoesFilter() {
     var name = document.getElementById("name").value;
@@ -24,8 +42,8 @@ function displayShoesFilter() {
 
     for(let i = 0; i<shoes.length; i++) {
         if (shoes[i].name == name) {
-            if (shoes[i].price <= priceLess) and (shoes[i].price >= priceGreater) {
-                if (shoes[i].size == size) and (shoes[i].brand == brand){
+            if ((shoes[i].price <= priceLess) && (shoes[i].price >= priceGreater)) {
+                if ((shoes[i].size == size) && (shoes[i].brand == brand)) {
                     if (shoes[i].style == style) {
                         list.push(shoes[i])
                     }
