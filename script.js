@@ -1,3 +1,7 @@
+document.getElementById("star").addEventListener("click", function() {
+  this.classList.toggle("rotate");
+});
+
 function toggleDarkMode() {
     document.body.classList.toggle('dark-mode');
     hideDiv("dark1", "dark2");
