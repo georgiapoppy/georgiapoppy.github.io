@@ -40,16 +40,19 @@ function displayShoesFilter() {
     document.getElementById('search').innerHTML = '';
 
     for(let i = 0; i<shoes.length; i++) {
-        if (shoes[i].name == name) {
-            if ((shoes[i].price <= priceLess) && (shoes[i].price >= priceGreater)) {
-                if ((shoes[i].size == size) && (shoes[i].brand == brand)) {
-                    if (shoes[i].style == style) {
-                        list.push(shoes[i])
+        if ((name.length == 0) || (shoes[i].name == name)) {
+            if ((isNaN(priceLess)) || (shoes[i].price <= priceLess)) {
+                if ((isNaN(priceGreater)) || (shoes[i].price >= priceGreater)) {
+                    if ((isNaN(size)) || (shoes[i].size == size)) {
+                        if ((style < 1) || (shoes[i].style == style)) {
+                            list.push(shoes[i])
+                        }
                     }
                 }
             }
         }
     }
+
     for(let i = 0; i<list.length; i++) {
         shoe = list[i]
         let shoeDiv = document.createElement("div");
