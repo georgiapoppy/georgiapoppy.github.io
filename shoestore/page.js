@@ -29,7 +29,6 @@ function displayShoesFilter() {
     var priceLess = document.getElementById("less").value;
     var priceGreater = document.getElementById("greater").value;
     var size = document.getElementById("size").value;
-    var brand = document.getElementById("Nike").value;
     var style = null;
     if (document.getElementById('Casual').checked) {
         style = document.getElementById("Casual").value;
