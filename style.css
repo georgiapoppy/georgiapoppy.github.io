@@ -230,6 +230,18 @@ header a {
     white-space: nowrap ;
 }
 
+.tiny_border {
+    border-radius: 15px;
+    background: var(--accent);
+    color: var(--text-light);
+    padding: 10px;
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
 .border {
     border-radius: 15px;
     background: var(--accent);
@@ -276,6 +288,12 @@ header a {
     font-style: italic;
     padding-top: 2px;
     padding-bottom: 2px;
+}
+
+.mini_border {
+    border: 3px solid var(--bg-dark);
+    border-radius: 1%;
+    margin: 10px;
 }
 
 .timeline {
