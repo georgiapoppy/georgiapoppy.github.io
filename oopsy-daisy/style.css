@@ -44,21 +44,21 @@ body {
 }
 
 .pages-container {
-  display: flex;
-  overflow: hidden;
-  width: 100%;
+    display: flex;
+    overflow: hidden;
+    width: 100%;
 }
 
 .page {
-  min-width: 100%;
-  overflow: hidden;
-  transition: transform 0.5s ease-in-out;
+    min-width: 100%;
+    overflow: hidden;
+    transition: transform 0.5s ease-in-out;
 }
 
 .pages {
     display: flex;
     transition: transform 0.5s ease;
-    width: 200%;
+    width: 100%;
 }
 
 h1 {
@@ -177,6 +177,8 @@ header {
     justify-content: center;
     gap: 20px;
     margin-top: 200px;
+    padding-left: 0;
+    margin-left: 0;
 }
 
 .grow-spot {
@@ -213,4 +215,3 @@ header {
     0%, 100% { transform: translateY(0); }
     50% { transform: translateY(-10px); }
 }
-
