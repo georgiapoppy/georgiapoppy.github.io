@@ -1,11 +1,11 @@
 :root {
-    --bg-light: #f0ffee;
-    --text-light: #d2f4d9;
-    --accent: #385339;
-    --secondary: #e8dfc9;
-    --secondary-dark: hsl(40, 22%, 21%);
-    --bg-dark: #2a312a;
-    --text-dark: #85a383;
+    --bg-light: #ffffff;
+    --text-light: #eaf9e9;
+    --accent: #728576;
+    --secondary: #dfefdf;
+    --secondary-dark: hsl(120, 9%, 16%);
+    --bg-dark: #354b39;
+    --text-dark: #eaf6e7;
 }
 
 * {
@@ -23,6 +23,18 @@ body {
     opacity: 0; 
     animation: fadeIn 2s ease-in;
     animation-fill-mode: forwards;
+}
+
+h2 {
+    font-size: 130%;
+}
+
+.line {
+    background-color: var(--accent);
+    text-align: center;
+    height: 40px;
+    padding: 0px;
+    margin: -10px;
 }
 
 nav {
@@ -78,7 +90,7 @@ button {
 }
 
 .dark-mode {
-    background-color: var(--accent);
+    background-color: var(--bg-dark);
     color: var(--text-light);
 }
 
@@ -91,12 +103,25 @@ button {
     color: var(--text-light);
 } 
 
+.dark-mode button {
+    background-color: var(--bg-dark);
+}
+
 .dark-mode .heading2 {
     color: var(--text-light);
 }
 
 .dark-mode nav a {
     color: var(--text-light);
+    background-color: var(--secondary-dark);
+} 
+
+.dark-mode nav {
+    background-color: var(--secondary-dark);
+} 
+
+.dark-mode .line {
+    background-color: var(--secondary-dark);
 } 
 
 .dark-mode nav a:hover {
@@ -104,11 +129,11 @@ button {
 } 
 
 .dark-mode .borderL, .dark-mode .border {
-    background-color: var(--bg-dark);
+    background-color: var(--secondary-dark);
 }
 
 .dark-mode footer {
-    background-color: var(--bg-dark);
+    background-color: var(--secondary-dark);
 }
 
 i {
@@ -184,11 +209,23 @@ header a {
     font-family: 'Roboto';
     margin: 5px;
     padding: 10px;
+    color: var(--accent);
 }
 
 .info i {
     font-size: 1em;
-    color: var(--accent);
+}
+
+.dark-mode .info {
+    color: var(--secondary);
+}
+
+.dark-mode .info a {
+    color: var(--secondary);
+}
+
+.dark-mode .language {
+    background-color: var(--secondary);
 }
 
 .links {
